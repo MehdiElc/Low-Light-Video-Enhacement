@@ -21,3 +21,18 @@ Install dependencies:
 
 ```bash
 pip install -r requirements.txt
+
+💡 Usage
+
+Run the main enhancement script:
+python src/lime_video_enhancement.py
+Set your input and output video paths in the script:
+INPUT_VIDEO = r"C:\path\to\input.mp4"
+OUTPUT_VIDEO = r"C:\path\to\output.mp4"
+
+The script processes the first 5 frames and saves:
+
+The enhanced video (output_video_5frames.mp4)
+
+Individual frames in the folder output_frames_5frames/
+

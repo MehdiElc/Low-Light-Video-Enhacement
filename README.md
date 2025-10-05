@@ -1,24 +1,32 @@
 # Low-Light-Video-Enhacement
-# LIME-Based Low-Light Video Enhancement
+# 🎥 Low-Light Video Enhancement (LIME + BM3D)
 
-This project implements an advanced **low-light video enhancement** algorithm based on **LIME** (Low-light Image Enhancement via Illumination Map Estimation) with several post-processing steps including **BM3D denoising**, **CLAHE**, **bilateral filtering**, and **sharpening**.
+This project enhances **low-light videos** using a combination of  
+**LIME (Illumination Map Estimation)**, **BM3D denoising**, and **temporal averaging**.
 
----
-
-## 🚀 Features
-
-- Illumination map refinement using FFT-based optimization  
-- BM3D denoising with adjustable sigma  
-- Adaptive CLAHE and soft sharpening  
-- Bilateral filtering for smoothing block noise  
-- Frame-by-frame video enhancement (demo: 5 frames)
+Developed by **Mehdi Mohammadi**,  
+Electrical Engineer & Digital Electronics MSc | CCTV & Video Processing Specialist
 
 ---
 
-## 🧩 Requirements
+## 🌟 Features
+- Brightens dark videos while keeping details
+- BM3D noise reduction
+- Temporal averaging for smooth results
+- Adjustable parameters in code
 
-Install dependencies:
+---
 
+## ⚙️ Installation
+
+1️⃣ Install Python (version 3.8 or newer)
+
+2️⃣ Clone this repository or download it:
+```bash
+git clone https://github.com/MehdiElc/lowlight-video-enhancement.git
+cd lowlight-video-enhancement
+
+3️⃣ Install dependencies:
 ```bash
 pip install -r requirements.txt
 

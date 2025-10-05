@@ -1,0 +1,4 @@
+numpy
+opencv-python
+scipy
+bm3d

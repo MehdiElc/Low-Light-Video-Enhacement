@@ -1,0 +1,10 @@
+🧠 Technical Overview
+
+1️⃣ Estimate illumination map (LIME method)
+2️⃣ Refine illumination using FFT optimization
+3️⃣ Apply gamma correction and BM3D denoising
+4️⃣ Merge frames with temporal averaging
+
+Reference paper:
+
+Guo et al., “LIME: Low-Light Image Enhancement via Illumination Map Estimation”, IEEE TIP, 2017

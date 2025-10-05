@@ -1,0 +1,3 @@
+Run the main enhancement script:
+
+python src/lime_video_enhancement.py

@@ -1,3 +1,8 @@
 Run the main enhancement script:
 
 python src/lime_video_enhancement.py
+
+Set your input and output video paths in the script:
+
+INPUT_VIDEO = r"C:\path\to\input.mp4"
+OUTPUT_VIDEO = r"C:\path\to\output.mp4"
